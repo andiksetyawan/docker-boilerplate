@@ -25,4 +25,4 @@ FROM golang:1.14.5 as go_app_image
 
 COPY go_app /app
 
-CMD ["go","run","main.go"]
+CMD ["go","run","/app/main.go"]
